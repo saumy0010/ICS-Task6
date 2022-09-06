@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+}
+
+.main {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.card-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card-main {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        max-width: 90%;
+    }
+}
+
+.card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 180px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border-radius: 40px;
+    background: #C9DDD8;
+    min-height: 230px;
+}
+
+.image {
+    margin-top: -50px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 130px;
+    height: 140px;
+}
+
+.txt {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.txt h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
