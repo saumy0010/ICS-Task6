@@ -8,7 +8,14 @@
     font-family: 'Roboto';
     src: url('Fonts/Roboto/Roboto-Regular.ttf') format(ttf);
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 600;
 }
 
 body {
@@ -71,7 +78,7 @@ img {
 
 .txt p {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
